@@ -197,12 +197,12 @@ $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 62E59AA5
-P 4150 1000
-F 0 "#PWR05" H 4150 750 50  0001 C CNN
-F 1 "GND" H 3950 950 50  0000 C CNN
-F 2 "" H 4150 1000 50  0001 C CNN
-F 3 "" H 4150 1000 50  0001 C CNN
-	1    4150 1000
+P 4050 1000
+F 0 "#PWR05" H 4050 750 50  0001 C CNN
+F 1 "GND" H 3850 950 50  0000 C CNN
+F 2 "" H 4050 1000 50  0001 C CNN
+F 3 "" H 4050 1000 50  0001 C CNN
+	1    4050 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -369,9 +369,6 @@ Wire Wire Line
 	3350 1050 3350 1000
 Connection ~ 3350 1050
 Connection ~ 3350 750 
-Wire Wire Line
-	4050 1000 4150 1000
-Connection ~ 4150 1000
 $Comp
 L Device:CP C3
 U 1 1 630A6345
@@ -542,4 +539,7 @@ Wire Wire Line
 Connection ~ 7200 2350
 Wire Wire Line
 	7200 2350 7300 2350
+Wire Wire Line
+	4150 1000 4250 1000
+Connection ~ 4250 1000
 $EndSCHEMATC
